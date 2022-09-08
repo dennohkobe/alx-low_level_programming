@@ -1,10 +1,10 @@
-/*
+/**
  * various size type
 */
 
 #include <stdio.h>
 
-/*
+/**
  * start of function
  */
 

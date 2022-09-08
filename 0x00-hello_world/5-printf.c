@@ -1,16 +1,16 @@
-/*
+/**
  * this is a description
  */
 
 #include <stdio.h>
 
-/*
+/**
  * printf function
  */
 
 int main(void)
 
-/*
+/**
  * printf main
  */
 
