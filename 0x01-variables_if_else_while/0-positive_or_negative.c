@@ -11,6 +11,10 @@
 */
 
 int main(void)
+/**
+ * Initial short desc
+ */
+
 {
 	int n;
 
