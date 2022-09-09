@@ -13,9 +13,10 @@
 int main(void)
 {
 	int x;
+	int Max_Random;
 
 	srand(time(0));
-	x = rand() - Max_Random / 2;
+	x = random() - Max_Random / 2;
 
 	if (x > 0)
 	printf("%d is positive\n", x);
