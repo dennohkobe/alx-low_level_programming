@@ -1,19 +1,18 @@
-/*
- * Printing alphabet
- */
-
 #include <stdio.h>
 
 /**
- * main function description
+ * main - Start
+ * Return: 0 (Ok)
  */
+
 int main(void)
 {
-	char letter;
+	char c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	putchar(letter);
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+	putchar(c);
+	}
 	putchar('\n');
-	/* return desc */
 	return (0);
 }
