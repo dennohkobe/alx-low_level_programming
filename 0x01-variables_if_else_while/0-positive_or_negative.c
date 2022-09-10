@@ -1,9 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * print positive, negative or zero.
- */
+/* print positive, negative or zero */
 int main(void)
 {
 	int n;
