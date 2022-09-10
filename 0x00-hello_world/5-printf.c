@@ -1,21 +1,11 @@
-/**
- * this is a description
- */
-
 #include <stdio.h>
 
 /**
- * printf function
+ * main - Start
+ * Return:  0 (Ok)
  */
-
 int main(void)
-
-/**
- * printf main
- */
-
 {
-		printf("with proper grammar, but the outcome is a piece of art,\n");
-
-			return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
