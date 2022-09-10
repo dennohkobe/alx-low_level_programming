@@ -2,11 +2,9 @@
  * Code for 0-positive_or_negative.c
  * Writter: DGK
  */
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * print positive, negative or zero.
  */
