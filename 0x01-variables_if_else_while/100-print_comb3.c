@@ -17,9 +17,12 @@ int main(void)
 	putchar('0' + n);
 	putchar('0' + i);
 	if (n < 8)
-	{															putchar(',');														putchar(32);
+	{ 
+	putchar(',');
+	putchar(32);
 	}
-	i++;															} while (i < 10);
+	i++;
+	} while (i < 10);
 	}
 	putchar('\n');
 	return (0);
