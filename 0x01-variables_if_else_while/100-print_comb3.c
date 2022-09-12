@@ -1,25 +1,28 @@
 #include <stdio.h>
 
 /**
- * main printing all possible combinations of two different digits separated by comma.
+ * main - Start
+ * Return: 0 (Ok)
  */
+
 int main(void)
 {
-	int digit1;
-	int digit2;
+	int n;
+	int i;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
+	for (n = 0 ; n < 9 ; n++)
 	{
-	for (digit2 = digit1 + 1; digit2 < 10; digit2++)
-	{
-	putchar((digit1 % 10) + '0');
-	putchar((digit2 % 10) + '0');
-	if (digit1 == 8 && digit2 == 9)
-	continue;
-	putchar(',');
-	putchar(' ');														}
+	i = n + 1;
+	do {
+	putchar('0' + n);
+	putchar('0' + i);
+	if (n < 8)
+	{															putchar(',');														putchar(32);
+	}
+	i++;															} while (i < 10);
 	}
 	putchar('\n');
-	/* return desc */
 	return (0);
 }
+
+
