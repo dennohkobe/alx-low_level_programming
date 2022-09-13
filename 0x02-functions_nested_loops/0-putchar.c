@@ -2,12 +2,16 @@
 
 /**
  * Main - Start
- * Return : _putchar (Ok)
+ * Return : 0 (Ok)
  */
 int main ()
 {
-	char *P = "Print_putchar\n";
+	char *P = "put\n";
 
+	while (*P)
+	{
 	_putchar(*P);
+	P++
+	}	
 	return (0);
 }
