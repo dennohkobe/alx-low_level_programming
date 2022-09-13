@@ -2,7 +2,7 @@
 
 /**
  * Main - Start
- * Return : 0 (Ok)
+ * Return : _putchar (Ok)
  */
 int main ()
 {
