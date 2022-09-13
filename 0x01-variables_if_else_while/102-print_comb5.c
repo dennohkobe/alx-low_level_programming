@@ -2,7 +2,7 @@
 
 /**
  * main - Start
- * Return: Always 0 (Succes)
+ * Return: 0 (Succes)
  */
 
 	int main(void)
