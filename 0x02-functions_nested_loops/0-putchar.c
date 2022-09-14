@@ -1,17 +1,17 @@
-#include <stdio.h>
-
+#include "alx.h"
 /**
- * Main - Start
- * Return : 0 (Ok)
+ * main - prints the string "_putchar" from a character array.
+ * Return: 0 (Ok)
  */
-int main ()
+int main(void)
 {
-	char *P = "put\n";
+	char c[] = "_putchar";
+	int i;
 
-	while (*P)
+	for (i = 0; i < 9; i++)
 	{
-	_putchar(*P);
-	P++
-	}	
+	_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
