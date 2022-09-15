@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Main - print_alphabet_x10
+ * Main - printing x10 alphabet
  * Return: 0
  */
 void print_alphabet_x10(void)
