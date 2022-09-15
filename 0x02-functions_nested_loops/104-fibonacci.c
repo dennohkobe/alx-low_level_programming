@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * print_fib - prints the first 50 Fibonacci numbers,
  * Return: void
@@ -24,13 +25,4 @@ void print_fib(int len)
 	printf("\n");
 	}
 	putchar('\n');
-}
-/**
- * main - Start,
- * Return: Always 0 (Ok)
- */
-int main(void)
-{
-	print_fib(98);
-	return (0);
 }
