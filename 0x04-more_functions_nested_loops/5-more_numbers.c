@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * more_numbers
+ * more_numbers - more numbers
  * Return: 0
  */
 
