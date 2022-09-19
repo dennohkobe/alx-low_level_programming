@@ -1,15 +1,19 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * main -puts - minic the stdio version of puts
- * @str: the value to process to the stdout.
+ * main _puts - prints a string
+ * return : 0
  */
+
 void _puts(char *str)
 {
-	while (*str > 0)
-	{
-	_putchar(*str);
-	str++;
-	}
-	_putchar('\n');
-}
+	int i = 0;
 
+	while (*(str + i) != '\0')
+	{
+		putchar(*(str + i));
+		i++;
+	}
+	putchar(10);
+}
