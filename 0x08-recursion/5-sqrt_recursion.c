@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * check_divisor - get square root
+ * check_natural - get square root
  * @a: main number
  * @b: check if is a square root
  * Return: natural sqrt or -1
