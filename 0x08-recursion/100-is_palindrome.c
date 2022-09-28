@@ -1,40 +1,44 @@
 #include "main.h"
+
 /**
- * str_length - String length
- * @st: input string
- * Return: integer length
+ * _strlen - String length
+ * @str - input
+ * Return: str length
  */
-int str_length(char *st)
+int _strlen(char *str)
 {
-	if (*st == '\0')
+	if (*str == '\0')
 	return (0);
-	return (str_length(++st) + 1);
+	else
+	return (1 + _strlen(str + 1));
 }
+
 /**
- * check_letter - check numbers are equal
- * @str: input 
- * @a: start
- * @z: end
- * Return: boolean
+ * check_palindrome - checks to see if a string is a palindrome
+ * @l: left index
+ * @r: right index
+ * @p: palindrome
+ * Return: 1 if palindrome 0 if not
  */
-int check_letter(char *str, int a, int z)
+int check_palindrome(int l, int r, char *p)
 {
-	if ((z - a) < 2)
-	return (str[a] == str[z] ? 1 : 0);
-	if (str[a] != str[z])
+	if (l >= r)
+	return (1);
+	else if (p[l] != p[r])
 	return (0);
-	return (check_letters(str, ++a, --z));
+	else
+	return (check_palindrome(l + 1, r - 1, p));
 }
+
 /**
- * is_palindrome - checks palindrome
- * @s: input string
- * Return: boolean
+ * is_palindrome - states if palindrome
+ * @s: input
+ * Return: 1 if palindrome, 0 if not
  */
 int is_palindrome(char *s)
 {
-	int len = str_length(s);
+	int i;
 
-	if (len < 2)
-	return (1);
-	return (check_letter(s, 0, --len));
+	i = _strlen(s) - 1;
+	return (check_palindrome(0, i, s));
 }
