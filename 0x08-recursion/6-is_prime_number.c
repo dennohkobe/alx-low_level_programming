@@ -14,10 +14,10 @@ int is_prime(int a, int b)
 	return (a % b == 0 ? 0 : (is_prime(a, b + 1)));
 }
 /**
- * * is_prime_number - check no. if prime
- * * @n: Number
- * * Return: Boolean
- * */
+ * is_prime_number - check no. if prime
+ * @n: Number
+ * Return: Boolean
+ */
 int is_prime_number(int n)
 {
 	return (is_prime(n, 2));
