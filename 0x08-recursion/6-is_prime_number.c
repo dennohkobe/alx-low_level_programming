@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_primr - check number is prime
+ * is_prime - check number is prime
  * @a: Number
  * @b: Divider
  * Return: Boolean
